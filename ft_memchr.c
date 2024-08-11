@@ -6,16 +6,13 @@
 /*   By: ismael <ismael@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/10 20:40:18 by ismael            #+#    #+#             */
-/*   Updated: 2024/08/10 20:41:02 by ismael           ###   ########.fr       */
+/*   Updated: 2024/08/11 22:10:04 by ismael           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/**
- * Scans the initial n bytes
- * both c and the bytes of s are interpreted as unsigned char
-*/
+
 void	*ft_memchr(const void *s, int ch, size_t n)
 {
 	unsigned char	*str;

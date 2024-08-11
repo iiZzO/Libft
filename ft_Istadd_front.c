@@ -6,10 +6,11 @@
 /*   By: ismael <ismael@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/10 20:13:28 by ismael            #+#    #+#             */
-/*   Updated: 2024/08/10 20:14:44 by ismael           ###   ########.fr       */
+/*   Updated: 2024/08/11 22:10:08 by ismael           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 
 void	ft_lstadd_front(t_list **lst, t_list *new)
 {

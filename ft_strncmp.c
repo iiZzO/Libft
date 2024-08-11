@@ -6,18 +6,13 @@
 /*   By: ismael <ismael@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/11 03:58:45 by ismael            #+#    #+#             */
-/*   Updated: 2024/08/11 03:59:08 by ismael           ###   ########.fr       */
+/*   Updated: 2024/08/11 22:09:58 by ismael           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/**
- * function shall compare not more than n bytes
- * (bytes that follow a NUL character are not compared)
- * s1 -> s2
- * return: difference of the first pair of bytes that are found different
-*/
+
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
 	size_t	i;
