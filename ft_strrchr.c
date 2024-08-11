@@ -6,7 +6,7 @@
 /*   By: ismael <ismael@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/11 03:59:51 by ismael            #+#    #+#             */
-/*   Updated: 2024/08/11 04:00:09 by ismael           ###   ########.fr       */
+/*   Updated: 2024/08/11 22:17:31 by ismael           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ char	*ft_strrchr(const char *s, int ch)
 {
 	char	*str;
 	char	c;
-	size_t	i;
+	int		i;
 
 	str = (char *)s;
 	c = (char)ch;
