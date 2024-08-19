@@ -6,12 +6,11 @@
 /*   By: ismael <ismael@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/10 20:40:18 by ismael            #+#    #+#             */
-/*   Updated: 2024/08/11 22:10:04 by ismael           ###   ########.fr       */
+/*   Updated: 2024/08/19 19:13:24 by ismael           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
 
 void	*ft_memchr(const void *s, int ch, size_t n)
 {

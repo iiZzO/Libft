@@ -6,7 +6,7 @@
 #    By: ismael <ismael@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/08/10 14:18:43 by ismael            #+#    #+#              #
-#    Updated: 2024/08/11 22:13:30 by ismael           ###   ########.fr        #
+#    Updated: 2024/08/11 22:58:04 by ismael           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ LIBNAME = libft.h
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
 
-SRC = ft_isalpha.c \
+SRC =  ft_isalpha.c \
        ft_isdigit.c \
        ft_isalnum.c \
        ft_isascii.c \
